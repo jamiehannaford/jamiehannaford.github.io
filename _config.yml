@@ -1,0 +1,47 @@
+title:            Hannaford
+tagline:          "Musings about code, life and current interests"
+description:      "Personal website with blog and important links"
+#url: http://jekyll.gtat.me
+
+owner:
+  name:           Jamie Hannaford
+  avatar:         avatar.png
+  email:          jamie@limetree.org
+  twitter:        jamiehannaford        
+  github:         jamiehannaford
+  disqus:         jamiehannaford
+
+links:
+  - title: About
+    url: /about
+  - title: Github
+    url: https://github.com/jamiehannaford
+    external: true
+  - title: Twitter
+    url: https://twitter.com/jamiehannaford
+    external: true
+
+timezone:    Europe/Zurich
+future:      true
+pygments:    true
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
