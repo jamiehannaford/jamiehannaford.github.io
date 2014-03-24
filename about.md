@@ -1,26 +1,39 @@
 ---
 layout: post
 permalink: /about/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
-tags: [about, Jekyll, theme, responsive]
+title: About me
+description: Once upon a time and a very good time it was there was a moocow coming down along the road and this moocow that was coming down along the road met a nicens little boy named baby tuckoo.
 image:
-  feature: soft-trees.jpg
+  feature: basel_header.jpg
 ---
 
-This is built on Semantic.gs grid framework which I edited a bit to make it fluid. I hope you enjoy using, forking, whatevering this theme as much as I did making it. 
+### tl;dr
 
-### Features
-* flexible, uses max-width for responsive goodness
-* responsive drop down menu
-* retina images using @2x
-* post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
+I'm a 25 year old software developer. I mainly hack on PHP, Ruby, and any cool OSS projects I can get my hands on. I currently work for the [Rackspace DRG](http://developer.rackspace.com/).
 
-### Acknowledgements
-I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 
+### To Begin at the Beginning
 
- The lovely font shown here is Calendas. For full splendor on your blog, I suggest you [head over and buy that](http://calendasplus.com/). The full family is 3 weights and costs $3. Many thanks to Daniel Bruce for the wonderful Entypo icons. Those can be picked up at [entypo.com](http://entypo.com), but are included with the source files. It's also <b>retina ready</b> via retina.js. Check out how that works over at [retinajs.com](http://retinajs.com).
+I was born and raised in Plymouth, a town on the south-west coast of the UK. I'd always wanted to be a lawyer when I was growing up, probably due to my exceptional skills in pointless arguing.
 
-### The Name
-Balzac was a famous writer, known for his beautiful prose. I read some Balzac in school, but mostly feel comfort in the name of my favorite coffee shop in Stratford, Ontario. 
+### Mortarboard
+
+I spent three years studying English Literature at [Hogwarts](http://en.wikipedia.org/wiki/Founder%27s_Building). I stayed for an extra year to specialize in Shakespeare and medieval literature for my Masters. I got my first programmer job because I couldn't think of a decent PhD topic.
+
+### Where?
+
+I moved to Basel when I was 24, like Nietzsche. Except without all the prophetic madness. If I could live anywhere in the world, I would probably pick Berlin.
+
+### Politics
+
+Wildly left-wing. I passionately support:
+
+* same-sex marriage and LGBT rights
+* gender equality, both generally and in the workplace
+* environmentalism
+* social welfare for the most vulnerable
+* immigration and providing asylum to those in danger
+* initiatives to end capital punishment
+
+### Current interests
+
+I'm learning German and pure mathemetics.
