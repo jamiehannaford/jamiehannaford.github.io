@@ -176,7 +176,7 @@ h6, .h6 {
 }
 
 blockquote, blockquote p {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .archive input {
@@ -276,9 +276,10 @@ a:hover {
 }
 
 em {
-  padding: 1px 2px;
-  border-radius: 2px;
-  background: #ffe8c0;
+  font-style:italic;
+  #padding: 1px 2px;
+  #border-radius: 2px;
+  #background: #ffe8c0;
 }
 
 strong {
@@ -303,6 +304,7 @@ blockquote, blockquote p {
   line-height: 1.3em;
   color: #666;
   margin-bottom: 33px;
+  margin-left: 10px;
 }
 
 /*   Code Formatting    */
