@@ -12,11 +12,11 @@ But for open-source developers, this leaves us in an awkward position. The objec
 
 The answer, in my opinion, is a definitive Yes.
 
-# What is BDD?
+## What is BDD?
 
 Before I elaborate on my reasoning, it’d be useful to refresh our memory and define how BDD works. Behavior-driven development is usually applied in two different ways: SpecBDD and StoryBDD. Both represent, and are subsets of, the wider methodology, but their scope is different.
 
-## Specs
+### Specs
 
 SpecBDD is easy to define, since it's all there in the name: it is a technique of describing functionality at the object level in small iterative steps. The workflow is simple: you specify behaviour first, then implement just enough code to satisfy that specification, and then refactor. It is roughly analogous to TDD, but behaviour is at the heart of development.
 
@@ -24,17 +24,17 @@ Defining behaviour first allows you to clarify direction and make the time you s
 
 It's for this reason that Kent Beck considers writing specs a fear management technique. And that's completely true: you're no longer meandering through development without a clear direction. SpecBDD allows us to crystallize our ideas of how something works first, and then spend just enough of our time and resources to get that working.
 
-## Stories
+### Stories
 
 Whilst SpecBDD covers how to describe behavior at the object level, StoryBDD describes the behavior of features at the domain or business level. SpecBDD is microscopic, StoryBDD is macroscopic.
 
-The general idea is to make sure that our software actually solves the business problems that our customers are facing. We open up the dialogue, we listen to what their requirements are, we distill those requirements into blueprints that can realistically achieve this functionality, then we code and make those blueprints a reality. The organic result of this approach is software _that actually matters_.
+The general idea of StoryBDD is to make sure that software actually solves the business problems that customers are facing. We open up the dialogue, we listen to what their requirements are, we distill those requirements into blueprints that can realistically achieve this functionality, then we code and make those blueprints a reality. The organic result of this approach is software _that actually matters_.
 
-In order to make this a reality, we have feature stories. Feature stories are human-readable specifications of features that _everyone_ on the team can understand. Because they're written in Gherkin, the workings of a feature become easily understood. You don't need a complex understanding of a language, you don't need to be an API witch doctor, you don't need a neck beard. Everyone's on a level field. Knowledge is no longer shut off and cabalistic, it's open for everyone to understand and contribute back to.
+In order to make this a reality, we have feature stories. Feature stories are human-readable specifications of features that _everyone_ on the team can understand. Because they're written in the Gherkin syntax, the workings of a feature become easily understood. You don't need a complex understanding of a language, you don't need to be an API witch doctor, you don't need a neck beard. Knowledge is no longer shut off and cabalistic, it's open for everyone to understand and contribute back to.
 
-Each story defines how a feature works through examples. These examples (also called scenarios), serve multiple purposes. Apart from their important role of communicating the intent of a feature, they can also be executed by tools like Cucumber and Behat to serve as functional tests. The tools parse the language and run the examples, allowing them to become benchmarks of project progress. I like to think of feature stories as living documentation that can be _executed_.
+Each story defines how a feature works through examples. These examples (also called scenarios), serve multiple purposes. Apart from their important role of communicating the intent of a feature, they can also be executed by tools like Cucumber and Behat to serve as functional tests. The tools parse the syntax and run the examples, allowing them to become benchmarks of project progress. I like to think of feature stories as living documentation that can be _executed_.
 
-# So why are stories useful for my OSS project?
+## So why are stories useful for my OSS project?
 
 There is a big difference between software produced for clients and software released to an open-source community. With client work, you write software and invoice it - you directly monetize your output. But OSS is based on opposite principles: monetization is completely against its raison d'etre. Instead, people write and release their work for free, for the altruistic benefit of prospective, unseen users. 
 
@@ -46,13 +46,13 @@ So, when we look at it this way, the value of your OSS project is completed inte
 
 - BDD allows us to understand, and directly connect with, our user-base. Our feature stories are more than stale blueprints: they're active promises of how features will work;
 
-- BDD ensures that our time and effort are well spent. Stories allow us to measure how we spend our time and ensure that our code delivers value;
+- BDD ensures that our time and effort is well spent. Stories allow us to measure how we spend our time and ensure that our code delivers value;
 
-- BDD improves collaboration and communication because there is a clear, concise way to articulate new or modified functionality. It democratizes the process of defining features, because nobody needs an intricate knowledge of the codebase to grokk how it works;
+- BDD improves collaboration and communication because there is a clear, concise way to articulate new or modified functionality. It democratizes the process of defining features, because nobody needs an intricate knowledge of the codebase to grok how it works.
 
 Not all developers are the same. Not all businesses are the same. BDD removes fuzzy or implicit assumptions of what we _think_ our users want with concrete requirements that can be executed and verified.
 
-# How do we know what features the OSS community wants?
+## How do we know what features the OSS community wants?
 
 I think a more useful question would be this: How do we facilitate understanding in OSS projects?
 
@@ -68,7 +68,7 @@ Once you have some idea of what your customers want, translate those requirement
 
 And if you have no metrics whatsoever, it’s okay to make educated guesses. If you yourself are a prospective user, feel free to use your own experience of interacting with similar products to inform how a new piece of software will work. Then collaborate with similar users to deepen your understanding. Start those conversations, enrich your scenarios with real content.
 
-# Should we trust users?
+## Should we trust users?
 
 Henry Ford once said that "If I had asked people what they wanted, they would have said faster horses." Perhaps that's true, but so is this: people drive innovation, not singular individuals. In one of his more famous meditations, John Donne said this:
 
