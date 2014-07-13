@@ -20,7 +20,7 @@ Before I elaborate on my reasoning, it’d be useful to refresh our memory and d
 
 SpecBDD is easy to define, since it's all there in the name: it is a technique of describing functionality at the object level in small iterative steps. The workflow is simple: you specify behaviour first, then implement just enough code to satisfy that specification, and then refactor. It is roughly analogous to TDD, but behaviour is at the heart of development.
 
-Defining behaviour first allows you to clarify direction and make the time you spending implementing the details more focused and efficient. Because you've thought about the problem beforehand - and reified it into a specification with concrete language - you have a clearer vision what the solution might look like. Forethought allows good design to become an imminent priority, instead of an inconvenient afterthought that only mitigates the damage of code slinging.
+Defining behaviour first allows you to clarify direction and make the time you spending implementing the details more focused and efficient. Because you've thought about the problem beforehand - and reified it into a specification with concrete language - you have a clearer vision of what the solution might look like. Forethought allows good design to become an imminent priority, instead of an inconvenient afterthought that only mitigates the damage of code slinging.
 
 It's for this reason that Kent Beck considers writing specs a fear management technique. And that's completely true: you're no longer meandering through development without a clear direction. SpecBDD allows us to crystallize our ideas of how something works first, and then spend just enough of our time and resources to get that working.
 
@@ -30,7 +30,7 @@ Whilst SpecBDD covers how to describe behavior at the object level, StoryBDD des
 
 The general idea of StoryBDD is to make sure that software actually solves the business problems that customers are facing. We open up the dialogue, we listen to what their requirements are, we distill those requirements into blueprints that can realistically achieve this functionality, then we code and make those blueprints a reality. The organic result of this approach is software _that actually matters_.
 
-In order to make this a reality, we have feature stories. Feature stories are human-readable specifications of features that _everyone_ on the team can understand. Because they're written in the Gherkin syntax, the workings of a feature become easily understood. You don't need a complex understanding of a language, you don't need to be an API witch doctor, you don't need a neck beard. Knowledge is no longer shut off and cabalistic, it's open for everyone to understand and contribute back to.
+In order to make this a reality, we have feature stories. Feature stories are human-readable specifications of features that _everyone_ on the team can understand. Because they're written in the Gherkin syntax, the workings of a feature become easily understood. You don't need a complex understanding of a language; you don't need to be an API witch doctor; you don't need a neck beard. Knowledge is no longer shut off and cabalistic, it's open for everyone to understand and contribute back to.
 
 Each story defines how a feature works through examples. These examples (also called scenarios), serve multiple purposes. Apart from their important role of communicating the intent of a feature, they can also be executed by tools like Cucumber and Behat to serve as functional tests. The tools parse the syntax and run the examples, allowing them to become benchmarks of project progress. I like to think of feature stories as living documentation that can be _executed_.
 
@@ -70,7 +70,7 @@ And if you have no metrics whatsoever, it’s okay to make educated guesses. If 
 
 ## Should we trust users?
 
-Henry Ford once said that "If I had asked people what they wanted, they would have said faster horses." Perhaps that's true, but so is this: people drive innovation, not singular individuals. In one of his more famous meditations, John Donne said this:
+Henry Ford once said that "If I had asked people what they wanted, they would have said faster horses." Perhaps that's true, but so is this: people drive innovation, not singular individuals. In one of his more famous meditations, John Donne said:
 
 > No man is an island,  entire of itself; every man is a piece of the continent, a part of the main
 
