@@ -52,7 +52,7 @@ So, when we look at it this way, the value of your OSS project is completed inte
 
 Not all developers are the same. Not all businesses are the same. BDD removes fuzzy or implicit assumptions of what we _think_ our users want with concrete requirements that can be executed and verified.
 
-## How do we know what features the OSS community wants?
+## How do we know what features the community wants?
 
 I think a more useful question would be this: How do we facilitate understanding in OSS projects?
 
