@@ -42,7 +42,7 @@ So, here's the quandary: if BDD is all about investing your software with busine
 
 The answer is People. People make open-source work: they write the code, they review patches, they download and install the software, they file the bug reports, they contribute back. The value of open-source is attained through how many people adopt your work and contribute back to it. 
 
-So, when we look at it this way, the value of your OSS project is completed interwoven with the concerns of your user-base. And it’s this realization which shows us how important BDD is to our projects, because:
+So, when we look at it this way, the value of your OSS project is completely interwoven with the concerns of your user-base. And it’s this realization which shows us how important BDD is to our projects, because:
 
 - BDD allows us to understand, and directly connect with, our user-base. Our feature stories are more than stale blueprints: they're active promises of how features will work;
 
