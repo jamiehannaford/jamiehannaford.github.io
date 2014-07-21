@@ -22,8 +22,8 @@ links:
     external: true
 
 timezone: Europe/Zurich
-future:   true
-pygments: true
+future: true
+highlighter: pygments
 markdown: kramdown
 
 permalink:   /:categories/:title
