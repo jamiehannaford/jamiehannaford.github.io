@@ -9,23 +9,25 @@ image:
 
 ### tl;dr
 
-I'm a 25 year old software developer. I mainly hack on PHP, Ruby, and any cool OSS projects I can get my hands on. I currently work for the [Rackspace DRG](http://developer.rackspace.com/).
+I'm a <span id="age"></span> year old software developer. I mainly [hack](https://github.com/jamiehannaford) on PHP, Go and any other cool open-source projects I can get my hands on. I'm also really interested in functional languages like Haskell, but don't have much extensive experience. I currently work for the [Rackspace Developer Experience group](http://developer.rackspace.com/).
 
 ### To Begin at the Beginning
 
-I was born and raised in Plymouth, a town on the south-west coast of the UK. I'd always wanted to be a lawyer when I was growing up, probably due to my exceptional skills in pointless arguing.
+I was born and raised in Plymouth, a town on the south-west coast of the UK known to most as the proud home of some [old colonists](https://en.wikipedia.org/wiki/Pilgrim_Fathers), its [harbours](https://en.wikipedia.org/wiki/Barbican,_Plymouth), and a [forgettably average](https://en.wikipedia.org/wiki/Plymouth_Argyle_F.C.) football team. I'd always wanted to be a barrister when I was growing up, probably due to my exceptional skills in pointless arguing and penchant for wigs.
 
 ### Mortarboard
 
-I spent three years studying English Literature at [Hogwarts](http://en.wikipedia.org/wiki/Founder%27s_Building). I stayed for an extra year to specialize in Shakespeare and medieval literature for my Masters. I got my first programmer job because I couldn't think of a decent PhD topic.
+I spent three years studying English Literature at [Hogwarts](http://en.wikipedia.org/wiki/Founder%27s_Building). I stayed for an extra year to specialize in Shakespeare and medieval literature for my Masters. I got my first programmer job because I couldn't think of a decent PhD topic. 
+
+"How is this relevant to programming?" I hear you cry. Studying the archaic and sometimes bizarre logic of medieval writers has prepared me wonderfully for the times I have to revisit old code.
 
 ### Where?
 
-I moved to Basel when I was 24, like Nietzsche. Except without all the prophetic madness. If I could live anywhere in the world, I would probably pick Berlin.
+As of 2015, Berlin.
 
-### Politics
+### Political and social beliefs
 
-Wildly left-wing. I passionately support:
+Unapologetically left-wing:
 
 * same-sex marriage and LGBT rights
 * gender equality, both generally and in the workplace
@@ -36,4 +38,8 @@ Wildly left-wing. I passionately support:
 
 ### Current interests
 
-I'm learning German and pure mathemetics.
+I tend to shuffle across different past-times as my fickleness allows, but I've recently been attempting German. I'm also deeply interested in rekindling my amateuer interest in pure mathematics. Aside from that: beer, music and Manchester United.
+
+<script>
+$('#age').text(Math.floor((new Date() - new Date("December 1988"))/31536000000));
+</script>
