@@ -316,6 +316,9 @@ code {
 }
 
 pre { padding: 15px; font-size: 1em; line-height: 1.25em; overflow-x: auto; margin-bottom: 33px; }
+
+pre code { font-size: 1em; color: #eee; line-height: 1.75em; }
+
 .highlight .hll { background-color: #49483e }
 .highlight  { background: #272822; color: #f8f8f2; border-radius: 5px; }
 .highlight pre { background: transparent; color: #f8f8f2 }
@@ -829,18 +832,18 @@ footer {
   position: relative;
 }
 
-footer .section { 
+footer .section {
     width: 900px;
     margin: 0 auto;
     display: block;
     padding: 40px 0;
 }
 
-footer .left { 
-  float:left; 
+footer .left {
+  float:left;
 }
-footer .right { 
-  float:right; 
+footer .right {
+  float:right;
 }
 footer a:hover {
   color: #6190A8;
