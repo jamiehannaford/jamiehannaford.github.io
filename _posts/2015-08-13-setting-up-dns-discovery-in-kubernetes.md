@@ -38,7 +38,7 @@ You will then need to edit ``skydns-rc.yaml`` so that the ``MASTER_IP`` placehol
 is replaced with the IP of your kubernetes master node:
 
 {% highlight bash %}
-sed -i -e '/s/MASTER_IP/xxx.xxx.xxx.xxx/g' skydns-rc.yaml
+sed -i -e 's/MASTER_IP/xxx.xxx.xxx.xxx/g' skydns-rc.yaml
 {% endhighlight %}
 
 I've assumed that the `kube-dns` addon will use a service IP of ``10.1.0.10``. If this
